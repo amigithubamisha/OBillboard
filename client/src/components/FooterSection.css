@@ -1,0 +1,117 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer {
+background: linear-gradient(90deg, rgba(205,245,253,1) 14%, rgba(137,207,243,1) 33%, rgba(160,233,255,1) 100%);
+padding-top: 40px;
+padding-bottom: 20px;
+}
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer{}
+@media only screen and (max-width:768px) { 
+.single_footer{margin-bottom:30px;
+}
+}
+.single_footer h4 {
+color: #000;
+/* margin-left: 70px; */
+font-weight: 700;
+text-transform: uppercase;
+font-size: 20px;
+}
+.single_footer h4::after {
+content: "";
+display: block;
+height: 2px;
+width: 40px;
+background: #000;
+margin-top: 5px;
+}
+.single_footer p{color:#000;}
+.single_footer ul {
+margin: 0;
+padding: 0;
+/* margin-left: 70px; */
+list-style: none;
+}
+.single_footer ul li{}
+.single_footer ul li a {
+color: #000;
+font-weight: 600;
+-webkit-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+line-height: 36px;
+font-size: 15px;
+text-transform: capitalize;
+}
+.single_footer ul li a:hover { color: #00A9FF;; }
+
+.single_footer_address{}
+.single_footer_address ul{}
+.single_footer_address ul li{color:#000;}
+.single_footer_address ul li span {
+font-weight: 400;
+color: #000;
+line-height: 28px;
+}
+.contact_social ul {
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {margin-top:20px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+text-align: center;
+border: 0px;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+margin: 0px 5px;
+font-size: 18px;
+color: #000;
+border-radius: 30px;
+width: 50px;
+height: 50px;
+line-height: 50px;
+display: block;
+border: 1px solid #000;
+}
+@media only screen and (max-width:768px) { 
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) { 
+.social_profile ul li a{
+width:40px;
+height:40px;
+line-height:40px;
+}
+}
+.social_profile ul li a:hover{
+background:#00A9FF;
+border: 1px solid #00A9FF;
+color:#fff;
+border:0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+margin-top: 70px;
+padding-top: 40px;
+color:#000;
+font-size: 15px;
+border-top: 1px solid #000;
+text-align: center;
+font-weight: 600;
+}
+
+.copyright a{color:#000;transition: all 0.2s ease 0s;}
+.copyright a:hover{color:#00A9FF;}

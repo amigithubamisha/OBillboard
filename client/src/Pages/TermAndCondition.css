@@ -1,0 +1,84 @@
+.termsAndConditions{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  
+}
+.termsAndConditionsHeading{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.serviceLeadingSection{
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+.sn{
+  font-size: 32px;
+  padding-right: 5px;
+}
+.st{
+  font-size: 32px;
+}
+.spl{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.serviceInfoContainer{
+  position:relative;
+  width: 100%;    
+}
+.serviceLead{
+  font-weight: 700;
+  margin-left: 15px;  
+  margin-top: 15px;
+  margin-block-end: 5px;  
+
+}
+.serviceDetails{
+  margin-left: 15px;
+}
+
+.displayNone{
+  display:none;
+}
+.secionLine{
+  height: 40px;
+  width:5px;
+
+  position:absolute;
+  top:7px;
+}
+/*Font Colours below*/
+.lightGreen{
+  color: #00A9FF;
+  font-weight: bold;
+}
+.blue{
+  color: #00A9FF;
+  font-weight: bold;
+}
+.orange{
+  color: #00A9FF;
+  font-weight: bold;
+}
+
+/*Set the colours for the lines*/
+.lineColorGreen{
+  background-image: linear-gradient(90deg, rgba(205,245,253,1) 14%, rgba(137,207,243,1) 33%, rgba(160,233,255,1) 100%);
+}
+.lineColorBlue{
+  background-image: linear-gradient(90deg, rgba(205,245,253,1) 14%, rgba(137,207,243,1) 33%, rgba(160,233,255,1) 100%);
+}
+.lineColorOrange{
+  background-image: linear-gradient(90deg, rgba(205,245,253,1) 14%, rgba(137,207,243,1) 33%, rgba(160,233,255,1) 100%);
+}
+

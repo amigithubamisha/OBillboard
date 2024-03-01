@@ -1,0 +1,98 @@
+.create-post-container {
+    max-width: 550px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .create-post-container .post-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-post-container #post-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    background-color: #339ce3;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-post-container .main-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .create-post-container #output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .create-post-container #output img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+  }
+  
+  .create-post-container input[type="file"],
+  .create-post-container input[type="text"],
+  .create-post-container select,
+  .create-post-container textarea,
+  .create-post-container input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-post-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .create-post-container input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .create-post-container div {
+    display: inline-block;
+    text-align: center;
+    /* margin-top: 10px; */
+  }
+  .create-post-container div strong {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .create-post-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .create-post-container {
+      width: 90%;
+    }
+  }
+  

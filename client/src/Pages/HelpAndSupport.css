@@ -1,0 +1,41 @@
+/* HelpAndSupport.css */
+
+.help-and-support-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #CDF5FD; /* Background color */
+    margin-top: 30px;
+    margin-bottom: 27px;
+  }
+  
+  .help-and-support-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .help-and-support-content {
+    margin-bottom: 40px;
+  }
+  
+  .help-and-support-contact {
+    border-top: 2px solid #000;
+    padding-top: 20px;
+  }
+  
+  /* Additional styles for a more attractive look */
+  .help {
+    color: #000; /* Header text color */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .help-support{
+    color: #000; /* Paragraph text color */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  

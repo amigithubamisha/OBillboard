@@ -1,0 +1,24 @@
+  .css-h4y409-MuiList-root{
+    padding-top: 75px!important;
+  }
+
+  .content {
+    padding: 16px; /* Adjust padding as needed */
+  }
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    background: linear-gradient(90deg, rgba(205, 245, 253, 1) 14%, rgba(137, 207, 243, 1) 33%, rgba(160, 233, 255, 1) 100%);
+  }
+  .css-10hburv-MuiTypography-root {
+    font-weight: bold!important;
+  }
+  path {
+    color: #000;
+}
+  /* Add media query for better responsiveness */
+  @media (max-width: 600px) {
+    .MuiDrawer-root {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
